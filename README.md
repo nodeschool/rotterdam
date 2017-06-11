@@ -2,7 +2,7 @@
 
 Repository for organising Rotterdam NodeSchool events. NodeSchool Rotterdam is hosted at Pixelbar.
 
-![./resources/logo/nodeschool-rotterdam.svg](./resources/logo/nodeschool-rotterdam.svg)
+![./resources/logo/nodeschool-rotterdam.png](./resources/logo/nodeschool-rotterdam.png)
 
 ## Team
 
