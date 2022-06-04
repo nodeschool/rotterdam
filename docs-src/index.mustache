@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi">
     <title>NodeSchool Rotterdam</title>
     <link rel="stylesheet" href="./styles/index.css" />
+    <script src="https://kit.fontawesome.com/f2e91a286c.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="site">
-
       <header id="header" class="header">
         <div class="header__content section__content">
           <div class="header__identification">
@@ -19,14 +19,13 @@
             </div>
             <nav class="header__social-links">
               <a href="https://twitter.com/pixelbar010">
-                <svg class="icon icon-twitter">
-                  <use xlink:href="./images/nodeschool_icons.svg#icon-twitter"></use>
-                </svg>
+                <i class="fab fa-twitter"></i>
               </a>
               <a href="https://github.com/nodeschool/rotterdam">
-                <svg class="icon icon-github">
-                  <use xlink:href="./images/nodeschool_icons.svg#icon-github"></use>
-                </svg>
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.meetup.com/nodeschool-rotterdam/">
+                <i class="fab fa-meetup"></i>
               </a>
             </nav>
           </div>
@@ -41,7 +40,15 @@
           {{#nextEvent}}
           <div class="next-event">
             <div class="next-event__description">
-              <h2 class="next-event__heading">Nodeschool #10 on {{date}}</h2>
+            <p>
+                👋 Yay! We're coming back! A reboot is coming of the old NodeSchool
+                community in Rotterdam and it will be better than ever. I hope you
+                didn't forget about us or if you're new, don't be a stranger.
+                Learn how to code in a fun, interactive and social way. Let's
+                learn Javascript and NodeJS together!
+              </p>
+                <p>Keep an eye out through our social channels for updates on upcoming editions.</p>
+              <!-- <h2 class="next-event__heading">Nodeschool #10 on {{date}}</h2>
               <ul class="next-event__info">
                 <li class="next-event__info__item">
                   <strong class="strong--alt">When?</strong> {{dayOfTheWeek}}, {{date}} from {{time}}
@@ -52,7 +59,7 @@
                 <li class="next-event__info__item">
                   <strong class="strong--alt">What?</strong> Freeform
                 </li>
-              </ul>
+              </ul> -->
             </div>
             <nav class="next-event__links">
               <a class="next-event__links__learner next-event__links__link button" href="{{ticketsUrl}}">
@@ -71,7 +78,7 @@
           <h2 class="faq__heading">Frequently Asked Questions</h2>
           <dl class="faq__questions">
 
-            <dt class="faq__question">
+            <!-- <dt class="faq__question">
               <h4 class="faq__subheading">Is there a schedule?</h4>
             </dt>
             <dd class="faq__answer">
@@ -83,7 +90,7 @@
                 <li class="schedule__item"><strong>23:00</strong> - Cleaning up</li>
               </ul>
             </dd>
-
+              -->
 
             <dt class="faq__question">
               <h4 class="faq__subheading">What do I need to bring?</h4>
@@ -96,7 +103,7 @@
               <h4 class="faq__subheading">Who organizes this event?</h4>
             </dt>
             <dd class="faq__answer">
-              David van Leeuwen (<a href="https://twitter.com/davidvanleeuwen">@davidvanleeuwen</a>), Tiemen Waterreus (<a href="https://twitter.com/tiemenwaterreus">@tiemenwaterreus</a>), John van de Water (<a href="https://twitter.com/johnvandewater">@johnvandewater</a>) and Timon van Spronsen (<a href="https://twitter.com/timonvspronsen">@timonvspronsen</a>) run the Rotterdam chapter.
+              David van Leeuwen (<a href="https://twitter.com/davidvanleeuwen">@davidvanleeuwen</a>), Tiemen Waterreus (<a href="https://twitter.com/tiemenwaterreus">@tiemenwaterreus</a>) and Timon van Spronsen (<a href="https://twitter.com/timonvspronsen">@timonvspronsen</a>) run the Rotterdam chapter.
             </dd>
 
             <dt class="faq__question">
@@ -158,7 +165,6 @@
           <ul>
           <li>David van Leeuwen (<a href="https://twitter.com/davidvanleeuwen">@davidvanleeuwen</a>)</li>
           <li>Tiemen Waterreus (<a href="https://twitter.com/tiemenwaterreus">@tiemenwaterreus</a>)</li>
-          <li>John van de Water (<a href="https://twitter.com/johnvandewater">@johnvandewater</a>)</li>
           <li>Timon van Spronsen (<a href="https://twitter.com/timonvspronsen">@timonvspronsen</a>)</li>
           </ul>
           <p><strong>If you have questions or feedback about this Code of Conduct please contact
